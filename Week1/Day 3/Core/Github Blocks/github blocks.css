@@ -1,0 +1,35 @@
+.whole{
+ background-color:white; 
+ margin-left: 50px;
+ margin-right: 50px;
+
+ }
+.image{
+height: 600px;
+margin: 60px ;
+padding: 30px;
+background-color:rgb(127, 255, 225);
+display:flex;
+justify-content: space-evenly;
+}
+.image2{
+    height: 600px;
+    background-color:pink ;
+    display: flex ;
+    justify-content:space-evenly ;
+    margin: 60px;
+    padding: 30px;
+}
+.image3{
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin:60 px ;
+    padding: 30px;
+}
+h1{
+display: flex;
+justify-content:center;
+font-size: 8em;
+}
