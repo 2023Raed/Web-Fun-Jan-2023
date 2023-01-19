@@ -1,0 +1,27 @@
+.row {
+    width: 100%;
+    display: flex;
+    flex: shrink 100%;
+
+}
+.col {
+    background-color: aqua;
+    flex: 1;
+    margin: 60px;
+    height: 70px;
+
+}
+
+.col-2 {
+    background-color: aqua;
+    flex: 2;
+    margin: 60px;
+    height: 70px;
+}
+
+.col-3 {
+    background-color: aqua;
+    flex: 3;
+    height: 70px;
+    margin: 60px;
+}
