@@ -1,0 +1,34 @@
+.container {
+    width: 1000px;
+    height: 700px;
+    border: 3px black solid;
+    margin-left: 250px;
+}
+
+.blue {
+    width: 1000px;
+    height: 25%;
+    background-color: aqua;
+}
+
+.white {
+    margin-top: 140px;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#profil {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    width: 220px;
+}
+img {
+    width: 15px;
+}
+p{
+font-size: 25px;
+} 
