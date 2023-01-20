@@ -1,14 +1,14 @@
 .container {
     width: 1000px;
     height: 700px;
-    border: 3px black solid;
+    border: 3px rgb(204,204,204) solid;
     margin-left: 250px;
 }
 
 .blue {
     width: 1000px;
     height: 25%;
-    background-color: aqua;
+    background-color: rgb(23,162,184);
 }
 
 .white {
