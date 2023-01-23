@@ -1,6 +1,6 @@
 for (var i = 1; i <= 20; i++) {
     if (i % 2 != 0) {
-        console.log(i) // les valeurs imapirs
+        console.log(i) // les valeurs imapairs
     }
 }
 for (var i = 100; index >= 0; i--) {
@@ -21,4 +21,4 @@ var product = 1
 for (var i = 1; i <= 12; i++) {
     product = product * i
 }
-console.log(product)
+console.log("test")
