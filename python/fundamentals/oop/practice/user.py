@@ -22,21 +22,17 @@ class User:
     def enroll(self):
 
         self.is_rewards_member = True
+        self.gold_card_points = 200
+
 
     def spend_points(self, amount):
 
-        self.gold_card_points=100
+        self.gold_card_points-=amount
 
 
-my_user = User("raed", "messaoud", "raed.messaoud1993@gmail.com", 29)
-my_user2 = User("rania", "messaoud", "rania.messaoud1991@gmail.com", 32)
-my_user.display_info()
-my_user.enroll()
-my_user.display_info()
-my_user.spend_points(100)
-my_user.display_info()
-my_user2.display_info()
-my_user2.enroll()
-my_user2.display_info()
-my_user2.spend_points(100)
-my_user2.display_info()
+my_user = User("raed", "messaoud", "raed.messaoud1993@gmail.com", 29).display_info().enroll().spend_points(100)
+
+my_user2 = User("rania", "messaoud", "rania.messaoud1991@gmail.com", 32).display_info().enroll().spend_points(100)
+
+
+
