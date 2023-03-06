@@ -11,7 +11,8 @@ def index():
 
 @app.route('/users')
 def users():
-    return render_template("users.html",users=User.get_all())
+    users=User.get_all()
+    return render_template("users.html",users=users)
 
 
 @app.route('/user/new')
